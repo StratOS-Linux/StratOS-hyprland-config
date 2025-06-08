@@ -6,14 +6,11 @@ pkgdesc="Hyprland configuration for StratOS"
 arch=('any')
 license=('GPL3')
 depends=(
-    'hyprland'
-    'waybar'
-    'stratos-waybar-config'
+    'hyprland' 'hyprpaper' 'hypridle' 'hyprlock'
+    'waybar' 'stratos-waybar-config'
+    'kitty' 'stratos-kitty-config'
     'stratos-eww-config'
-    'stratos-mako-config'
-    'hyprpaper'
-    'hypridle'
-    'hyprlock'
+    'mako' 'stratos-mako-config'
 )
 optdepends=( 
     'stratos-btop-config: system resource monitor'
