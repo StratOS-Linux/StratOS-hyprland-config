@@ -1,4 +1,4 @@
-# Maintainer: @zstg <zestig@duck.com>
+# Maintainer: @magitian <magitian@duck.com>
 pkgname=stratos-hyprland-config
 pkgver=1.0
 pkgrel=1
@@ -10,19 +10,22 @@ depends=(
     'waybar' 'stratos-waybar-config'
     'kitty' 'stratos-kitty-config'
     'stratos-eww-config'
-    'mako' 'stratos-mako-config'
+    'mako'
 )
+
 optdepends=( 
     'stratos-btop-config: system resource monitor'
-    'stratmacs: app launchers'
+    'swaync: recommended notification daemon'
+    'stratos-wallpapers: default wallpapers provided by the StratOS team'
+    'libqalculate: command-line scientific calculator, needed for calc script'
     'rofi: alternate app launcher'
 )
-source=('.config')
+
+source=()
 md5sums=('SKIP')
+install=stratos-hyprland-config.install
 
 package() {
     install -d "$pkgdir/etc/skel/.config"
     cp -r "$srcdir/.config/hypr/" "$pkgdir/etc/skel/.config/"
-    echo "Configuration files have been copied to /etc/skel."
-    echo "You may copy these files to ~/.config/ and make any changes you wish."
 }
