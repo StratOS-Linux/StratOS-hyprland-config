@@ -1,7 +1,7 @@
 # Maintainer: @magitian <magitian@duck.com>
 pkgname=stratos-hyprland-config
 pkgver=1.0
-pkgrel=1
+pkgrel=3
 pkgdesc="Hyprland configuration for StratOS"
 arch=('any')
 license=('GPL3')
@@ -10,6 +10,7 @@ depends=(
     'waybar' 'stratos-waybar-config'
     'kitty' 'stratos-kitty-config'
     'eww' 'stratos-eww-config'
+    'stratos-fonts'
     'mako' 'stratos-mako-config'
     'swayosd-git'
     'polkit-gnome'
