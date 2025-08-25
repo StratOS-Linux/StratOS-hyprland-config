@@ -1,2 +1,0 @@
-#!/bin/env bash
-exec rofi -disable-history -show drun -theme ~/.config/rofi/config.rasi -auto-select

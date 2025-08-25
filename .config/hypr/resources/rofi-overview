@@ -1,2 +1,0 @@
-#!/usr/bin/env fish
-killall rofi || rofi -disable-history -show window -theme /home/mgtn/.config/rofi/config.rasi -auto-select

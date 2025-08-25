@@ -9,11 +9,16 @@ depends=(
     'hyprland' 'hyprpaper' 'hypridle' 'hyprlock'
     'waybar' 'stratos-waybar-config'
     'kitty' 'stratos-kitty-config'
-    'stratos-eww-config'
-    'mako'
+    'eww' 'stratos-eww-config'
+    'mako' 'stratos-mako-config'
+    'swayosd-git'
+    'polkit-gnome'
+    'nwg-dock-hyprland-bin'
 )
 
-optdepends=( 
+optdepends=(
+    'stratmacs: StratOS Emacs build'
+    'stratmacs-config: Stratmacs configuration'
     'stratos-btop-config: system resource monitor'
     'swaync: recommended notification daemon'
     'stratos-wallpapers: default wallpapers provided by the StratOS team'
