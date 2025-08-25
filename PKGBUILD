@@ -1,4 +1,4 @@
-# Maintainer: @magitian <magitian@duck.com>
+# Maintainer: @zstg <zestig@duck.com>
 pkgname=stratos-hyprland-config
 pkgver=1.0
 pkgrel=3
